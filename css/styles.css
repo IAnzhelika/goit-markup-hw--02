@@ -1,0 +1,24 @@
+.header-logo{
+    color: #000000;
+}
+.accent{
+    color: #2196F3;
+}
+.header-link{
+    color: #212121;
+}
+.header-link:hover{
+    color: #2196F3;
+}
+.contact-link{
+    color: #757575;
+}
+.contact-link:hover{
+    color: #2196F3;
+}
+.hero-section{
+   background-color: #2F303A;
+}
+.hero-title{
+    color: #FFFFFF;
+}
