@@ -1,24 +1,66 @@
+:root{
+    --color-primary:#212121;
+    --color-brand:#2196F3;
+    --color-secondary:#757575;
+    --color-light:#FFFFFF;
+    --color-bg-dark:#2F303A;
+    --color-logo:#000000;
+}
+body{
+    color:var(--color-primary);
+}
+/*Header*/
 .header-logo{
-    color: #000000;
+    color: var(--color-logo);
 }
 .accent{
-    color: #2196F3;
+    color: var(--color-brand);
 }
 .header-link{
-    color: #212121;
+    color:var(--color-primary);
 }
 .header-link:hover{
-    color: #2196F3;
+    color: var(--color-brand);
 }
 .contact-link{
-    color: #757575;
+    color: var(--color-secondary);
 }
 .contact-link:hover{
-    color: #2196F3;
+    color: var(--color-brand);
 }
+/*Hero*/
 .hero-section{
-   background-color: #2F303A;
+   background-color: var(--color-bg-dark);
 }
 .hero-title{
-    color: #FFFFFF;
+    color: var(--color-light);
+}
+.hero-button{
+    color: var(--color-light);
+    border: none;
+    background-color: var(--color-brand);
+}
+/*Benefit sectiom*/
+.benefit-text{
+    color: var(--color-secondary);
+}
+/*person section*/
+.person-job{
+    color: var(--color-secondary);
+}
+/*footer*/
+.footer{
+    background-color: var(--color-bg-dark);
+}
+.footer-logo{
+    color: var(--color-light);
+}
+.footer-logo.accent{
+    color:var(--color-brand);
+}
+.adress-link{
+color: var(--color-light);
+}
+.footer-link{
+color: #fff9;
 }
